@@ -1,7 +1,6 @@
 @font-face{
 	font-family: 'fontCraciun';
 	src: url('fonts/CHRIOC__.TTF');
-	
 }
 
 body{
@@ -21,34 +20,29 @@ div#camp{
 	font-size: 50px;
 	color: black;
 	text-shadow: 2px 2px white;
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	top: 30%;
 	text-align: center;
 }
 
 div#mesaj{
-
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: 'fontCraciun';
 	font-size: 40px;
-	/*display:none;*/
-
+	display:none;
 }
+
 div#mesajChallenge{
-
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: 'fontCraciun';
 	font-size: 40px;
-	/*display:none;*/
-
+	display:none;
 }
-
-
 
 #numeScrisoare{
 	text-align: center;
@@ -56,12 +50,14 @@ div#mesajChallenge{
 	margin:0;
 	padding: 3%;
 }
+
 #incheiere{
 	text-align: right;
 	margin-right: 10%;
 	margin-bottom: 0;
 	font-size: 50px;
 }
+
 #incheiere2{
 	text-align: right;
 	margin-top: 0;
@@ -69,20 +65,21 @@ div#mesajChallenge{
 	padding-bottom: 5%;
 	font-size: 50px;
 }
-#text{
 
+#text{
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 5%;
 }
+
 #textChallenge{
 	font-size: 60px;
 	text-align: center;
 	margin:0;
 	padding-top: 3%;
 	line-height:47px;
-
 }
+
 #nrChallenge{
 	font-size: 300px;
 	text-align: center;
@@ -99,47 +96,52 @@ button#btn1{
 	border-radius: 50%;
 	border:1px solid black;
 }
+
 button#btn2{
-	width: 50%;
+	width: 60%;
 	height: 70px;
 	font-size: 60px;
 	font-family: 'fontCraciun';
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
 	margin-bottom: 10%;
 	padding: 0%;
 	background-color: #cb3b3a;
-
 }
 
 @media (max-width: 600px) {
 	div#camp{
 		font-size: 30px;
 	}
+
 	header a#mare{
 		display: none;
 	}
+
 	header a#mic{
 		display:inline;
 	}
+
 	#numeScrisoare{
 		padding-top: 10%;
 	}
+
 	#textChallenge{
-	font-size: 60px;
-	text-align: center;
-	margin:0;
-	line-height:47px;
-    }
-    button#btn2{
-    	width: 50%;
-	    height: 70px;
-	    font-size: 40px;
-	    line-height: 24px;
-	    font-family: 'fontCraciun';
-		margin-left: 25%;
-		margin-right: 25%;
+		font-size: 60px;
+		text-align: center;
+		margin:0;
+		line-height:47px;
+	}
+
+	button#btn2{
+		width: 60%;
+		height: 70px;
+		font-size: 40px;
+		line-height: 24px;
+		font-family: 'fontCraciun';
+		margin-left: 20%;
+		margin-right: 20%;
 		margin-bottom: 10%;
 		padding: 0%;
-    }
+	}
 }
