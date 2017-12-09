@@ -1,3 +1,9 @@
+@font-face{
+	font-family: 'fontCraciun';
+	src: url('fonts/CHRIOC__.TTF');
+	
+}
+
 body{
 	background-image: url("http://www.kqfuncasinos.com/wp-content/uploads/2013/04/red-xmas-backgrounds-wallpapers.jpg");
 }
@@ -22,10 +28,40 @@ div#camp{
 }
 
 div#mesaj{
-	color:pink;
-	background-color: white;
-	width:70%;
-	
+
+	background-image:url("images/textBackground.jpg");
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'fontCraciun';
+	font-size: 40px;
+
+}
+
+
+#numeScrisoare{
+	text-align: center;
+	font-size: 50px;
+	margin:0;
+	padding: 3%;
+}
+#incheiere{
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 0;
+	font-size: 50px;
+}
+#incheiere2{
+	text-align: right;
+	margin-top: 0;
+	margin-right: 8%;
+	padding-bottom: 5%;
+	font-size: 50px;
+}
+#text{
+
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
 }
 
 button{
@@ -46,6 +82,9 @@ button{
 	}
 	header a#mic{
 		display:inline;
+	}
+	#numeScrisoare{
+		padding-top: 10%;
 	}
 
 }
