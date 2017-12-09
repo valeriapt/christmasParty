@@ -4,7 +4,7 @@
 }
 
 body{
-	background-image: url("http://www.kqfuncasinos.com/wp-content/uploads/2013/04/red-xmas-backgrounds-wallpapers.jpg");
+	background-image: url("images/background.jpg");
 }
 
 header{
@@ -20,7 +20,7 @@ div#camp{
 	font-size: 50px;
 	color: black;
 	text-shadow: 2px 2px white;
-	position: absolute;
+	position: relative;
 	width: 100%;
 	top: 30%;
 	margin:0;
@@ -112,7 +112,7 @@ button#btn2{
 
 @media (max-width: 600px) {
 	div#camp{
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 	header a#mare{
