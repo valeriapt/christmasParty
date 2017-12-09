@@ -10,13 +10,22 @@ function displayLetter() {
 	var prenume = document.getElementById('prenume').value;
 
 	nameForLetter = document.getElementById("numeScrisoare");
-	nameForLetter.innerHTML = "Draga " + nume + ",";
+	nameForLetter.innerHTML = "Draga " + prenume + ",";
+	displayRandomChallenge();
+
 }
 
 
 nrOfChallenges = 10;
 
 function displayRandomChallenge() {
-	int challengeNr = Math.floor(Math.random() * nrOfChallenges + 1);
+	var challengeNr = Math.floor(Math.random() * nrOfChallenges + 1);
 	console.log(challengeNr);
+
+	var nrChallengeElem = document.getElementById("nrChallenge");
+	nrChallengeElem.innerHTML = challengeNr;
+
 }
+
+
+
