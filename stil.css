@@ -34,8 +34,20 @@ div#mesaj{
 	margin-right: 10%;
 	font-family: 'fontCraciun';
 	font-size: 40px;
+	/*display:none;*/
 
 }
+div#mesajChallenge{
+
+	background-image:url("images/textBackground.jpg");
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'fontCraciun';
+	font-size: 40px;
+	/*display:none;*/
+
+}
+
 
 
 #numeScrisoare{
@@ -88,7 +100,16 @@ button#btn1{
 	border:1px solid black;
 }
 button#btn2{
-	
+	width: 50%;
+	height: 70px;
+	font-size: 60px;
+	font-family: 'fontCraciun';
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10%;
+	padding: 0%;
+	background-color: #cb3b3a;
+
 }
 
 @media (max-width: 600px) {
@@ -109,6 +130,16 @@ button#btn2{
 	text-align: center;
 	margin:0;
 	line-height:47px;
-
-}
+    }
+    button#btn2{
+    	width: 50%;
+	    height: 70px;
+	    font-size: 40px;
+	    line-height: 24px;
+	    font-family: 'fontCraciun';
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+		padding: 0%;
+    }
 }
