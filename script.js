@@ -1,8 +1,7 @@
 function myFunction() {
- 	var nume= $('#nume').val();
-	var prenume= $('#prenume').val();
-	document.cookie = prenume;
+ 	var nume= document.getElementById('nume').value;
+	var prenume= document.getElementById('prenume').value;
 	document.getElementById ('nume').value =' ';
 	document.getElementById ('prenume').value =' ';
-	window.location.assign("mesaj.html");
+	
 }
