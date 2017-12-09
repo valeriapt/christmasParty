@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Christmas Party</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body{
+	background-image: url("http://www.kqfuncasinos.com/wp-content/uploads/2013/04/red-xmas-backgrounds-wallpapers.jpg");
+}
+header{
+	width: 100%;
+	text-align: center;
+}
+header a#mic{
+	display: none;
+}
+
+div#camp{
+	font-size: 50px;
+	color: black;
+	text-shadow: 2px 2px white;
+	position: fixed;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+}
+button{
+	background-color: white;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 50%;
+	border:1px solid black;
+}
+
+@media (max-width: 600px) {
+	div#camp{
+		font-size: 30px;
+	}
+	header a#mare{
+		display: none;
+	}
+	header a#mic{
+        display:inline;
+    }
+
+}
+	</style>
+</head>
+<body>
+	<header>
+		<a id="mare" target="_top"  ><img src="https://blog.flamingtext.com/blog/2017/12/07/flamingtext_com_1512651675_585758075.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+		<a id="mic" target="_top"  ><img src="https://blog.flamingtext.com/blog/2017/12/07/flamingtext_com_1512651873_585758076.gif" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>;
+	</header>
+	<div id="camp">
+    <b>Nume: </b> <input type = "text" id = "nume">
+	<br>
+	<b>Prenume: </b><input type = "text" id = "prenume">
+	<br>
+    
+	<button onclick="myFunction()">Continua</button>
+    </div>
+
+<script>
+
+	   function myFunction() {
+		 	var nume= $('#nume').val();
+			var prenume= $('#prenume').val();
+        	document.cookie = prenume;
+	   		document.getElementById ('nume').value =' ';
+	   		document.getElementById ('prenume').value =' ';
+	   		window.location.assign("mesaj.html");
+        }
+
+
+</script>
+</body>
+</html>

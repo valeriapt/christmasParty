@@ -1,0 +1,41 @@
+body{
+	background-image: url("http://www.kqfuncasinos.com/wp-content/uploads/2013/04/red-xmas-backgrounds-wallpapers.jpg");
+}
+header{
+	width: 100%;
+	text-align: center;
+}
+header a#mic{
+	display: none;
+}
+
+div#camp{
+	font-size: 50px;
+	color: black;
+	text-shadow: 2px 2px white;
+	position: fixed;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+}
+button{
+	background-color: white;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	border-radius: 50%;
+	border:1px solid black;
+}
+
+@media (max-width: 600px) {
+	div#camp{
+		font-size: 30px;
+	}
+	header a#mare{
+		display: none;
+	}
+	header a#mic{
+        display:inline;
+    }
+
+}
