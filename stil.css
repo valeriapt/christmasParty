@@ -63,14 +63,32 @@ div#mesaj{
 	padding-right: 5%;
 	padding-bottom: 5%;
 }
+#textChallenge{
+	font-size: 60px;
+	text-align: center;
+	margin:0;
+	padding-top: 3%;
+	line-height:47px;
 
-button{
+}
+#nrChallenge{
+	font-size: 300px;
+	text-align: center;
+	line-height: 239px;
+	padding-bottom: 1%;
+	margin: 0;
+}
+
+button#btn1{
 	background-color: white;
 	width: 100px;
 	height: 30px;
 	font-size: 20px;
 	border-radius: 50%;
 	border:1px solid black;
+}
+button#btn2{
+	
 }
 
 @media (max-width: 600px) {
@@ -86,5 +104,11 @@ button{
 	#numeScrisoare{
 		padding-top: 10%;
 	}
+	#textChallenge{
+	font-size: 60px;
+	text-align: center;
+	margin:0;
+	line-height:47px;
 
+}
 }
