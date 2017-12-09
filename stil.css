@@ -20,6 +20,14 @@ div#camp{
 	top: 30%;
 	text-align: center;
 }
+
+div#mesaj{
+	color:pink;
+	background-color: white;
+	width:70%;
+	
+}
+
 button{
 	background-color: white;
 	width: 100px;
