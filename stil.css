@@ -112,7 +112,8 @@ button#btn2{
 
 @media (max-width: 600px) {
 	div#camp{
-		font-size: 30px;
+		font-size: 25px;
+		line-height: 38px;
 	}
 
 	header a#mare{
