@@ -39,5 +39,16 @@ function displayRandomChallenge() {
 
 }
 
+function displaySecondSurprise(){
+	document.getElementById('mesajChallenge').style.display = "none";
+	document.getElementById('page4').style.display = "block";
+}
+
+
+function displayMesajAlumni(){
+	document.getElementById('page4').style.display = "none";
+	document.getElementById('mesajAlumni').style.display = "block";
+}
+
 
 
