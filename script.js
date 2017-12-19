@@ -24,7 +24,7 @@ function displayLetter() {
 }
 
 
-nrOfChallenges = 10;
+nrOfChallenges = 7;
 
 function displayRandomChallenge() {
 	var challengeNr = Math.floor(Math.random() * nrOfChallenges + 1);
