@@ -31,7 +31,8 @@ div#mesaj{
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: 'fontCraciun';
+/*	font-family: 'fontCraciun';*/
+	font-family: 'Risque', cursive;
 	font-size: 40px;
 	display:none;
 }
@@ -40,7 +41,8 @@ div#mesajChallenge{
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: 'fontCraciun';
+	/* font-family: 'fontCraciun'; */
+	font-family: 'Risque', cursive;
 	font-size: 40px;
 	display:none;
 }
@@ -48,7 +50,8 @@ div#page4{
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: 'fontCraciun';
+	/* font-family: 'fontCraciun'; */
+	font-family: 'Risque', cursive;
 	font-size: 40px;
 	display:none;
 }
@@ -56,7 +59,8 @@ div#mesajAlumni{
 	background-image:url("images/textBackground.jpg");
 	margin-left: 10%;
 	margin-right: 10%;
-	font-family: 'fontCraciun';
+	/*font-family: 'fontCraciun';*/
+	font-family: 'Risque', cursive;
 	font-size: 40px;
 	display:none;
 }
